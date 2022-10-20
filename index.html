@@ -8,13 +8,29 @@
     <link href="./assets/css/normalize.css" rel="stylesheet">
     <link href="./assets/css/reset.css" rel="stylesheet">
     <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/menu.css">
 </head>
 <body class="app">
     <header>
-        HEADER
+        <nav class="menu">
+            <ul class="menu_list">
+                <li class="menu_item">
+                    <a class="menu_link activo" href="#">
+                        <i class="fas fa-home"></i>
+                        HOME
+                    </a>
+                    <a class="menu_link" href="#">
+                        <i class="fas fa-mobile-alt"></i>
+                        APPS</a>
+                    <a class="menu_link" href="#">
+                        <i class="fas fa-gamepad"></i>
+                        VIDEOGAMES
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    
-    <main class="content">
+    <main class="contentarea">
         <section class="highlights">
             <div class="principal box">
                 <h3 class="title">Fornite</h3>
@@ -346,11 +362,11 @@
             </div>
         </div>
     </div>
-</section>
-    </main>
+    </section>
     <footer class="footer">
         Copyright. All rights reserved. Brian &copy 2022
     </footer>
+    </main>
     <script src="./assets/js/fontawesome.all.min.js"></script>
 </body>
 </html>
